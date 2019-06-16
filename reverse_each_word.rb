@@ -1,4 +1,5 @@
 def reverse_each_word(sentence)
-sentence.split(" ")
+empty_array = []
+empty_array.push(sentence.split(" "))
 
 end
