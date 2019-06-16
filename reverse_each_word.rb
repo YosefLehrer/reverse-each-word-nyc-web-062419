@@ -6,5 +6,5 @@ final_array = []
 first_array.collect do |sentence|
   final_array.push(sentence.reverse)
   end
-  final_array.join("")
+  final_array.join(" ")
 end
